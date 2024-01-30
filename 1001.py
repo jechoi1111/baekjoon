@@ -6,5 +6,3 @@ for index, i in enumerate(value):
         result -= int(i)
 
 print(result)
-
-# git 계정 수정 테스트
