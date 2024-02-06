@@ -61,3 +61,9 @@
     * [::-1]
         * num1, num2 = input().split()
         * num1 = int(num1[::-1]) -> 역순
+
+* **문자열 출력**
+  * sys.stdin.readline
+    * EOFError를 발생시키지 않고 빈 문자열을 리턴
+  * input
+    * EOF 받는 경우 EORError 발생
