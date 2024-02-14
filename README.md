@@ -67,3 +67,15 @@
     * EOFError를 발생시키지 않고 빈 문자열을 리턴
   * input
     * EOF 받는 경우 EORError 발생
+
+* **문자열 자르기**
+  * String[start:end:step]
+    * start: 문자열의 시작 인덱스 (부분 문자열에 포함) - 기본값 0
+    * end: 문자열의 끝 인덱스 (부분 문자열에 포함 X)
+    * step: 현재 문자에서 step 간격으로 문자 추출 - 기본값 1
+
+* **문자열 제거**
+  * String.replace(old_str, new_str, count)
+    * old_str: 교체하고 싶은 문자열
+    * new_str: 새로 사용하고 싶은 문자열
+    * count: 새로운 문자열로 변경 하고 싶은 횟수
