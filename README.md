@@ -43,6 +43,12 @@
     * 깊은 복사 : 어느 배열을 수정하여도 다른쪽에 영향 없음 (import copy)
         * deepcopy 
 
+* **배열 내에 원소 개수 찾기**
+  * count: array.count(x)
+    * x : 문자 및 문자열 모두 가능 
+    * 배열 내에 x 가 등장 하는 횟수를 반환
+    * x가 포함된 원소가 아닌 원소 자체의 숫자를 셈
+
 * **reduce 사용 방법**
     * reduce : functools import reduce
         * reduce(lambda acc, cur: acc + cur[‘age’], data, 0]
